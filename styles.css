@@ -8,3 +8,7 @@
 .introPhotos img{
   width: 500px;
 }
+
+footer ul{
+  list-style-type: none;
+}
