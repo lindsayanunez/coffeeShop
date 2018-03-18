@@ -52,4 +52,10 @@ footer a:hover{
 
 .footer-copyright{
   background-color: #C63D0F;
+  padding: 1em;
+  color:#FDF3E7;
+}
+
+.footer-copyright a{
+ color:#FDF3E7
 }
