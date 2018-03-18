@@ -49,3 +49,7 @@ footer a:hover{
   color:gray;
   text-decoration: none;
 }
+
+.footer-copyright{
+  background-color: #C63D0F;
+}
