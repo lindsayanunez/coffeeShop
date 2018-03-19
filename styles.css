@@ -36,6 +36,13 @@ html body{
   z-index: 10;
 }
 
+.introBlock{
+    background-color: white;
+    padding-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px
+}
+
 button{
   text-align: center;
 }
