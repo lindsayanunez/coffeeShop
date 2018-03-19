@@ -36,6 +36,9 @@ html body{
   z-index: 10;
 }
 
+button{
+  text-align: center;
+}
 
 p{
   color:#3B3738;
