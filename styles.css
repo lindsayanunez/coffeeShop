@@ -13,7 +13,13 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 30em}
+  height: 30em;
+  position: absolute;
+    left: 0;
+    right: 0;
+  width:100%;
+  z-index: 5;
+}
 
 .introPhotos img{
   width: 500px;
@@ -21,7 +27,11 @@ body{
 
 .introPhotos{
   margin-top: 6em;
+  position: absolute;
+    top:40em;
+  z-index: 10;
 }
+
 
 p{
   color:#3B3738;
@@ -41,10 +51,11 @@ footer ul{
 footer{
   background-color:#c1e0d1;
   position: absolute;
+    top: 75em;
     left: 0;
     right: 0;
   width:100%;
-  margin-top: 6em;
+  z-index: 15;
 }
 
 footer a{
