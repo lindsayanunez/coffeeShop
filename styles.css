@@ -28,7 +28,7 @@ body{
 .introPhotos{
   margin-top: 6em;
   position: absolute;
-    top:40em;
+    top:35em;
   z-index: 10;
 }
 
@@ -39,6 +39,8 @@ p{
 
 h1{
   color:#FDF3E7;
+  text-align: center;
+  vertical-align: middle;
 }
 
 
@@ -51,7 +53,7 @@ footer ul{
 footer{
   background-color:#c1e0d1;
   position: absolute;
-    top: 75em;
+    top: 70em;
     left: 0;
     right: 0;
   width:100%;
