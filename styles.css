@@ -5,8 +5,12 @@
 #FDF3E7 - white
 #c1e0d1- blue*/
 
-body{
+html body{
   background-color:#FDF3E7;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+
 }
 .welcome{
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/62/Drip_Coffee_Bangkok.jpg");
@@ -52,13 +56,15 @@ footer ul{
 
 footer{
   background-color:#c1e0d1;
+  height: 11em;
   position: absolute;
     top: 70em;
     left: 0;
     right: 0;
+    bottom:0;
   width:100%;
-  z-index: 15;
-}
+  z-index: 20;
+ }
 
 footer a{
   color:#3B3738;
