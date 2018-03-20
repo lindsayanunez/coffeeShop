@@ -102,3 +102,7 @@ footer a:hover{
 .footer-copyright a{
  color:#FDF3E7
 }
+
+.footerLinkHead .footerLinks{
+  text-align: left;
+}
