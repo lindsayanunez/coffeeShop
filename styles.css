@@ -25,6 +25,12 @@ html body{
   z-index: 5;
 }
 
+.description{
+  z-index: 5;
+  position: absolute;
+    top:35em;
+}
+
 .introPhotos img{
   width: 500px;
 
