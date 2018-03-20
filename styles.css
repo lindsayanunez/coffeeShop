@@ -30,6 +30,8 @@ html body{
   position: absolute;
     top:35em;
   margin-top: 3em;
+  text-align: center;
+
 }
 
 .introPhotos img{
@@ -41,6 +43,7 @@ html body{
     display: block;
     margin-right: auto;
     margin-left: auto;
+
 
 }}
 
@@ -99,6 +102,11 @@ footer{
     top: 125em;
     }}
 
+@media only screen and (max-width: 430px) {
+  footer{
+  position: absolute;
+    top: 120em;
+    }}
 
  @media only screen and (max-width: 990px){
  .introBlock{
