@@ -92,6 +92,14 @@ footer{
     top: 125em;
     }}
 
+
+ @media only screen and (max-width: 990px){
+ .introBlock{
+    margin-left: 0px;
+    margin-right: 0px;
+    width:100%;
+}}
+
 footer a{
   color:#3B3738;
   text-decoration: none;
