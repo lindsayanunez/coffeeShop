@@ -64,6 +64,8 @@ html body{
 
 button{
   text-align: center;
+  width: 25%;
+  height:10%;
 }
 
 p{
