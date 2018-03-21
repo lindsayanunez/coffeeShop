@@ -47,6 +47,9 @@ nav li a:visited{
     top:15em;
 }
 
+h1{
+  font-size: 4em;
+}
 .description{
   z-index: 5;
   position: absolute;
