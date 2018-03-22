@@ -5,12 +5,13 @@
 #FDF3E7 - white
 #c1e0d1- blue*/
 
-html body{
+html, body{
   background-color:#F7F7F7;
   font-family: 'Raleway', sans-serif;
   height: 100%;
   width: 100%;
   margin: 0;
+  padding:0;
 
     background: -moz-linear-gradient(45deg, #F7F7F7 0%, #EAE0D5 100%);
   /* FF3.6-15 */
@@ -126,8 +127,9 @@ footer{
     left: 0;
     right: 0;
     bottom:0;
-  width:100%;
   z-index: 20;
+
+
  }
 
 @media only screen and (max-width: 990px) {
