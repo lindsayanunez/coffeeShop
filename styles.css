@@ -176,6 +176,20 @@ footer{
   font-weight: 400;
  }
 
+ .spectrum div{
+  font:inherit;
+  padding:0 20px;
+  color: #FDF3E7;
+  overflow: auto;
+  opacity: 0.9;
+
+ }
+
+ .spectrum p{
+  color: #FDF3E7;
+  text-align: left;
+ }
+
 /*FOOTER SECTION*/
 
 footer a{
