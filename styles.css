@@ -157,7 +157,15 @@ footer{
   height:400px;
   background-position: center center;
 }
-
+ .roasting{
+  margin: 40px auto;
+  padding: 20px 30px 40px 30px;
+  background-color: #FFFFFFFFF;
+  overflow: auto;
+  width: 75%;
+  border-radius:4px;
+  align-self: center;
+ }
 
 /*FOOTER SECTION*/
 
