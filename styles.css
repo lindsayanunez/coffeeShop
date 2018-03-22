@@ -167,6 +167,15 @@ footer{
   align-self: center;
  }
 
+ .roasting p{
+  color:;
+  text-align: center;
+  line-height: 24px;
+  font-family:'Raleway', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+ }
+
 /*FOOTER SECTION*/
 
 footer a{
