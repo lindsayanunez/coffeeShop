@@ -108,8 +108,13 @@ p{
 
 h1{
   color:#FDF3E7;
+  position: relative;
   text-align: center;
+    top:20%;
   vertical-align: middle;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0, 5px;
 }
 
 
@@ -212,6 +217,9 @@ footer{
  .italian{
   background-color: #141212;
  }
+
+
+
 
 /*FOOTER SECTION*/
 
