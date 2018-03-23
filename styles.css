@@ -52,8 +52,8 @@ nav li a:visited{
 }
 
 .welcomeText{
-  position:absolute;
-    top:15em;
+  position:relative;
+    top:13em;
 }
 
 h1{
