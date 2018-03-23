@@ -59,6 +59,11 @@ nav li a:visited{
 h1{
   font-size: 4em;
 }
+
+h2{
+  color:#E4BB97;
+}
+
 .description{
   z-index: 5;
   position: absolute;
