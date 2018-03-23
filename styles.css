@@ -263,6 +263,12 @@ footer{
 
 a{
   color:#214E34;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
 }
 
 /*FOOTER SECTION*/
