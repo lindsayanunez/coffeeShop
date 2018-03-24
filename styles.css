@@ -21,6 +21,8 @@ html, body{
 
 }
 
+/*navigation*/
+
 nav li a{
   color: #3B3738;
   text-decoration: none;
@@ -36,7 +38,7 @@ nav li a:visited{
   text-decoration: none;
 }
 
-
+/*HOMEPAGE*/
 
 .welcome{
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/62/Drip_Coffee_Bangkok.jpg");
@@ -65,28 +67,8 @@ nav li a:visited{
   }
 }
 
-.roasting h1{
-  font-size: 4em;
-}
-
-.roasting h2{
-  color:#E4BB97;
-  font-size: 28px;
-  font-weight:500;
-  text-align: left;
-  text-transform: uppercase;
-}
-
- .roasting h4{
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 1em;
-}
-
-.roasting h5{
-  font-size: 20px;
-  line-height: 1em;
-  font-weight: 200;
+.description h4{
+  padding-bottom: 100px;
 }
 
 .description{
@@ -132,9 +114,7 @@ button{
   height:10%;
 }
 
-p{
-  color:#3B3738;
-}
+
 
 h1{
   color:#FDF3E7;
@@ -147,45 +127,6 @@ h1{
   margin: 0, 5px;
 }
 
-
-
-footer ul{
-  list-style-type: none;
-  text-align: center;
-}
-
-footer{
-  background-color:#c1e0d1;
-  height: 11em;
-  position: absolute;
-    top: 70em;
-    left: 0;
-    right: 0;
-    bottom:0;
-  z-index: 20;
-
-
- }
-
-@media only screen and (max-width: 990px) {
-  footer{
-    height: 15em;
-  position: absolute;
-    top: 125em;
-    }}
-
-@media only screen and (max-width: 430px) {
-  footer{
-  position: absolute;
-    top: 120em;
-    }}
-
- @media only screen and (max-width: 990px){
- .introBlock{
-    margin-left: 0px;
-    margin-right: 0px;
-    width:100%;
-}}
 
 
 /*ABOUT COFFEE SECTION*/
@@ -212,6 +153,34 @@ footer{
   font-size: 16px;
   font-weight: 400;
  }
+
+ .roasting h1{
+  font-size: 4em;
+}
+
+.roasting h2{
+  color:#E4BB97;
+  font-size: 28px;
+  font-weight:500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+ .roasting h4{
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1em;
+}
+
+.roasting h5{
+  font-size: 20px;
+  line-height: 1em;
+  font-weight: 200;
+}
+
+p{
+  color:#3B3738;
+}
 
  .spectrum div{
   font:inherit;
@@ -282,6 +251,42 @@ a{
 }
 
 /*FOOTER SECTION*/
+
+footer ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+footer{
+  background-color:#c1e0d1;
+  height: 11em;
+  position: absolute;
+    top: 70em;
+    left: 0;
+    right: 0;
+    bottom:0;
+  z-index: 20;
+ }
+
+@media only screen and (max-width: 990px) {
+  footer{
+    height: 15em;
+  position: absolute;
+    top: 125em;
+    }}
+
+@media only screen and (max-width: 430px) {
+  footer{
+  position: absolute;
+    top: 120em;
+    }}
+
+ @media only screen and (max-width: 990px){
+ .introBlock{
+    margin-left: 0px;
+    margin-right: 0px;
+    width:100%;
+}}
 
 footer a{
   color:#3B3738;
