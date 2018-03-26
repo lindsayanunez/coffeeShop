@@ -250,15 +250,35 @@ a{
   letter-spacing: 2px;
 }
 
+/*#C63D0F - Red
+#3B3738 - black
+#FDF3E7 - white
+#c1e0d1- blue*/*/
+
+
 /*CONTACT PAGE*/
+.contactBox{
+  width: 100%;
+  text-align: center;
+
+}
 
 .contactBox ul{
-  list-style: none;
+   text-align: center;
+    background-color: #FDF3E7;
+    border: 5px solid #c1e0d1;
+    height:10em;
 }
 
 .contactBox li{
+  list-style: none;
   display: inline;
-  text-align: center;
+  padding: 1em;
+  color: #C63D0F;
+}
+
+.contactBox li a{
+  color: #C63D0F;
 }
 
 
