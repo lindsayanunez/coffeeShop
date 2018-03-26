@@ -250,6 +250,18 @@ a{
   letter-spacing: 2px;
 }
 
+/*CONTACT PAGE*/
+
+.contactBox ul{
+  list-style: none;
+}
+
+.contactBox li{
+  display: inline;
+  text-align: center;
+}
+
+
 /*FOOTER SECTION*/
 
 footer ul{
