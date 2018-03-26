@@ -258,9 +258,6 @@ a{
 
 /*CONTACT PAGE*/
 .contactBox{
-  width: 100%;
-  text-align: center;
-
 }
 
 .contactBox ul{
@@ -269,6 +266,8 @@ a{
     border: 5px solid #c1e0d1;
     height:15em;
     line-height: 15em;
+    width: 100%;
+    text-align: center;
 }
 
 .contactBox li{
@@ -281,6 +280,13 @@ a{
 .contactBox li a{
   color: #C63D0F;
 }
+
+@media only screen and (max-width: 410px) {
+  .contactBox li{
+    padding: 0.5em;
+    text-align: left;
+    }}
+
 
 
 /*FOOTER SECTION*/
