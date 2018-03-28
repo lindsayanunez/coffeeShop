@@ -303,31 +303,32 @@ padding: 3em;
 
 /*FOOTER SECTION*/
 
-footer ul{
+.footer ul{
   list-style-type: none;
   text-align: center;
 }
 
-footer{
+.footer{
+  width:100%;
+
   background-color:#c1e0d1;
   height: 11em;
-  /*position: absolute;
-    top: 70em;
-    left: 0;
-    right: 0;
-    bottom:0;
-  z-index: 20;*/
+     float:left;
+        width:109%;
+        margin-left:-5%;
+        margin-bottom: 0;
+
  }
 
 @media only screen and (max-width: 990px) {
-  footer{
+  .footer{
     height: 15em;
 /*  position: absolute;
     top: 125em;*/
     }}
 
 @media only screen and (max-width: 430px) {
-  footer{
+  .footer{
 /*  position: absolute;
     top: 120em;*/
     }}
@@ -339,12 +340,12 @@ footer{
     width:100%;
 }}
 
-footer a{
+.footer a{
   color:#3B3738;
   text-decoration: none;
 }
 
-footer a:hover{
+.footer a:hover{
   color:gray;
   text-decoration: none;
 }
