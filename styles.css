@@ -311,25 +311,25 @@ footer ul{
 footer{
   background-color:#c1e0d1;
   height: 11em;
-  position: absolute;
+  /*position: absolute;
     top: 70em;
     left: 0;
     right: 0;
     bottom:0;
-  z-index: 20;
+  z-index: 20;*/
  }
 
 @media only screen and (max-width: 990px) {
   footer{
     height: 15em;
-  position: absolute;
-    top: 125em;
+/*  position: absolute;
+    top: 125em;*/
     }}
 
 @media only screen and (max-width: 430px) {
   footer{
-  position: absolute;
-    top: 120em;
+/*  position: absolute;
+    top: 120em;*/
     }}
 
  @media only screen and (max-width: 990px){
