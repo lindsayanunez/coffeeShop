@@ -38,6 +38,10 @@ nav li a:visited{
   text-decoration: none;
 }
 
+.navbar-header .navbar-toggle .icon-bar{
+  background-color: #3B3738;
+}
+
 /*HOMEPAGE*/
 
 .welcome{
